@@ -1,0 +1,73 @@
+body {
+    padding: 20px;
+    margin: 0px;
+    background: url(/images/bg.gif) 0 0;
+    font-family: 'PT Sans', Arial, Tahoma, sans-serif;
+    width: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#content{
+}
+
+#message{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #F5F4EE);
+    border-radius: 6px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+#tokens{
+    width: 600px;
+    margin: 0 auto;
+
+    padding: 20px;
+    padding-bottom: 5px;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #F5F4EE);
+    border-radius: 6px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+#buttons{
+    width: 500px;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+#buttons button{
+    margin: 5px;
+    width: 100px;
+}
+
+textarea{
+    resize: none;
+    width: 400px;
+    height: 80px;
+}
+
+#send_button{
+    vertical-align: top;
+
+    margin-left: 20px;
+
+    width: 100px;
+    height: 86px;
+}
+
+h3{
+    margin: 0px;
+}
+
+#status{
+    display: block;
+}
+
+pre{
+    border-bottom: 1px solid #E9E9E9;
+    padding: 5px;
+}

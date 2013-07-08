@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div#content
+    div#message
+      h3 Meesage
+      textarea#text Hello
+      button#send_button Send
+      label#status ok
+    div#buttons
+      button#clear_button Clear
+      button#add_button1 Add token 1
+      button#add_button2 Add token 2
+    div#tokens
+      h3 Device tokens:
+      each token in tokens
+        pre= token
+  
